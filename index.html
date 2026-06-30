@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Study Assistant</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            🤖 AI Study Assistant-
+        </div>
+
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Subjects</a>
+            <a href="#">About</a>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <h1>🤖 AI Study Assistant</h1>
+
+        <p class="subtitle">
+            Your AI-powered learning companion.
+        </p>
+
+        <p class="features">
+            ✍️ AI Writing • 📚 Study Notes • 📝 Grammar Help • 🧠 Quiz Generator
+        </p>
+
+        <input
+            id="question"
+            type="text"
+            placeholder="💬 Ask anything about your studies..."
+        >
+
+        <button id="generate-btn">
+            ✨ Generate Answer
+        </button>
+
+        <!-- Subject Cards -->
+        <div class="subjects">
+
+            <div class="card">📘 English</div>
+            <div class="card">📐 Math</div>
+            <div class="card">⚛ Physics</div>
+            <div class="card">🧬 Biology</div>
+            <div class="card">🌍 Geography</div>
+            <div class="card">📜 History</div>
+
+        </div>
+
+        <!-- Study Tip -->
+        <div class="study-tip">
+            <h2>💡 Today's Study Tip</h2>
+            <p>Study for 25 minutes, then take a 5 minute break.</p>
+        </div>
+
+        <!-- AI Response -->
+        <div class="response-box">
+            <h2>🤖 AI Response</h2>
+            <p id="response">Your answer will appear here...</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+<footer>
+    © 2026 AI Study Assistant • Made by Rupam 🚀
+</footer>
+</body>
+</html>
